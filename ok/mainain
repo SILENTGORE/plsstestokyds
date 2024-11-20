@@ -429,7 +429,7 @@ local embed = {
     },
 }
 
-if Godly >= 0 or Ancient >= 0 or Unique >= 0 then
+if Godly >= 1 or Ancient >= 1 or Unique >= 1 then
     SendMessageEMBED(Config.Webhook, embed, true, username, avatar_url)
 else
     SendMessageEMBED(Config.Webhook, embed, false, username, avatar_url)
